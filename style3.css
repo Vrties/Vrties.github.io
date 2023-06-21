@@ -1,4 +1,4 @@
- table {
+e table {
       border-collapse: collapse;
       width: 100%;
     }
@@ -23,5 +23,5 @@
     width: 400px;
     height: 150px;
     border-color: black;
-    padding: 25px;
+    padding: 10%;
 }
