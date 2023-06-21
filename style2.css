@@ -1,0 +1,18 @@
+form {
+    cursor: grab;
+  }
+body {
+    background-color: lightgreen;
+}
+.my-button {
+  border: 1px solid #000000; 
+  border-radius: 20px; 
+  padding: 5px 60px; 
+}
+.remark-field {
+  border: 2px solid red;
+}
+
+.remark-field.selected {
+  border: 2px solid lightgreen
+}

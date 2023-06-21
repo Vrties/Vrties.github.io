@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>inschrijven</title>
+        <link rel="stylesheet" href="style2.css">
+      </head>
+<body>
+    <nav>
+        <a href="index.html">Index</a> | <a href="blog.html">Mijn Hobbies</a> | <a href="tournooi.html">Wedstrijdoverzicht</a>
+    </nav> 
+<h2>Giftcard</h2>
+<p>Vul uw gegevens in om te kijken of u student bent en dat je een gratis giftcard naar keuze kan krijgen</p>
+
+<form action="bedankt.html" method="POST">
+  <label for="name">Naam:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Telefoonnummer:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="pincode">Pincode:</label>
+        <input type="password" id="pincode" name="pincode" minlength="4" maxlength="4" pattern="[0-9]{4}" required><br><br>
+
+        <label for="provincie">Provincie:</label>
+        <select id="provincie" name="provincie">
+          <option value="Groningen">Groningen</option>
+          <option value="Friesland">Friesland</option>
+          <option value="Drenthe">Drenthe</option>
+          <option value="Overijssel">Overijssel</option>
+          <option value="Gelderland">Gelderland</option>
+          <option value="Flevoland">Flevoland</option>
+          <option value="Utrecht">Utrecht</option>
+          <option value="Noord-Holland">Noord-Holland</option>
+          <option value="Zuid-Holland">Zuid-Holland</option>
+          <option value="Zeeland">Zeeland</option>
+          <option value="Noord-Brabant">Noord-Brabant</option>
+          <option value="Limburg">Limburg</option>
+        </select>
+
+        
+      <label for="voetbal">Hou je van Voetbal:</label>
+        <input type="radio" id="houdenVanVoetbal" name="voetbal" value="ja">
+        <label for="houdenVanVoetbal">Ja</label>
+        <input type="radio" id="nietHoudenVanVoetbal" name="voetbal" value="nee">
+        <label for="nietHoudenVanVoetbal">Nee</label><br><br>
+        
+        <label for="favorieteDagen">Favoriete dagen van de week:</label><br>
+        <input type="checkbox" id="maandag" name="favorieteDagen" value="maandag">
+        <label for="maandag">Maandag</label><br>
+        <input type="checkbox" id="dinsdag" name="favorieteDagen" value="dinsdag">
+        <label for="dinsdag">Dinsdag</label><br>
+        <input type="checkbox" id="woensdag" name="favorieteDagen" value="woensdag">
+        <label for="woensdag">Woensdag</label><br>
+        <input type="checkbox" id="donderdag" name="favorieteDagen" value="donderdag">
+        <label for="donderdag">Donderdag</label><br>
+        <input type="checkbox" id="vrijdag" name="favorieteDagen" value="vrijdag">
+        <label for="vrijdag">Vrijdag</label><br>
+        <input type="checkbox" id="zaterdag" name="favorieteDagen" value="zaterdag">
+        <label for="zaterdag">Zaterdag</label><br>
+        <input type="checkbox" id="zondag" name="favorieteDagen" value="zondag">
+        <label for="zondag">Zondag</label><br><br>
+
+        <label for="comments">Opmerkingen:</label>
+    <textarea id="comments" class="remark-field" name="comments"></textarea><br><br>
+
+        
+        <input type="submit" class="my-button" value="Versturen">
+</form>
+
+
+</body>
+</html>

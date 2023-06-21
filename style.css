@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+    font-size:xx-large;
+    cursor:grab;
+    border-style: outset;
+    text-align: center;
+    }
+p {
+    color: red;
+    font-size:large;
+}
+a {
+    color: green;
+    font-size:large;
+}
+ul {
+    color: purple;
+    font-size:medium;
+}
+body {
+    background-color: wheat
+}
+img {
+    height: 650px;
+}
+h2 {
+    color: white;
+  }
+div {
+    color:rgb(236, 19, 127)
+}  
+h2 {
+    color:rgb(255, 153, 0)
+}
+div {
+    background-color: white
+}
+a {
+    display: block;
+  }
+nav {
+    background-color: lightgrey;
+    }
+footer {
+    background-color: rgb(209, 237, 255);
+}
+p1 {
+    color: red;
+    font-size:large;
+}

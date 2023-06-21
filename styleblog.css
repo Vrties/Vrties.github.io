@@ -1,0 +1,32 @@
+h3 {
+    color:brown;
+    font-size: xx-large;
+    text-align: center;
+}
+body {
+    background-color: greenyellow;
+}
+section {
+    background-color: burlywood
+}
+article {
+    background-color: burlywood;
+}
+p {
+    border-style: outset;
+    text-align: center;
+}
+img {
+    height: 300;
+}
+footer {
+    background-color: aliceblue;
+    border-style:initial
+}
+a {
+    text-align: center;
+}
+h1 {
+    color:brown;
+    font-size: xx-large;
+}
