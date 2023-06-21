@@ -48,3 +48,6 @@ p1 {
     color: red;
     font-size:large;
 }
+li {
+    text-align: center;
+}
